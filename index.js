@@ -12,7 +12,7 @@ app.use(cors())
 app.use(express.json())
 
 app.use("/api/*", (_,res)=>{
-    res.json({data: 'The API is working'})
+    res.json({data: 'The API is now working'})
 })
 
 console.log("It's alive")
